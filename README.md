@@ -105,3 +105,4 @@ gatsby-plugin-sass (add to gatsby plugin array)
 (src/main.scss) @import "../node_modules/bootstrap/scss/bootstrap.scss";
 import to layout.js
 Watch SASS
+<!-- idk if i need to include popper.js or jquery-->
