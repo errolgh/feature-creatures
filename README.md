@@ -99,9 +99,14 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 <!-- AUTO-GENERATED-CONTENT:END -->
 "# feature-creatures" 
 
-
+<!-- one way to configure bootstrap with sass -->
 npm install --save react-bootstrap bootstrap node-sass@4.14.1
 gatsby-plugin-sass (add to gatsby plugin array)
 (src/main.scss) @import "../node_modules/bootstrap/scss/bootstrap.scss";
 import to layout.js
 Watch SASS
+<!-- idk if i need to include popper.js or jquery-->
+
+npm install gatsby-plugin-google-fonts --save
+
+npm i netlify-cms-app gatsby-plugin-netlify-cms
