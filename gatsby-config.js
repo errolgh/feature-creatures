@@ -5,6 +5,13 @@ module.exports = {
     author: `Errol Watson`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto mono`, `source sans pro\:100,300,500,700`],
+        display: "swap"
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {

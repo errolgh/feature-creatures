@@ -5,8 +5,9 @@ import Layout from '../components/layout'
 const BlogPage = () => (
     <>
         <Layout>
-            <SEO title="blog"/>
+            <SEO title="Blog"/>
             <h1>Blog</h1>
+            <h3>Test</h3>
         </Layout>
     </>
 )

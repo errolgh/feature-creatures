@@ -106,3 +106,7 @@ gatsby-plugin-sass (add to gatsby plugin array)
 import to layout.js
 Watch SASS
 <!-- idk if i need to include popper.js or jquery-->
+
+npm install gatsby-plugin-google-fonts --save
+
+npm i netlify-cms-app gatsby-plugin-netlify-cms

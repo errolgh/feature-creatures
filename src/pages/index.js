@@ -1,29 +1,41 @@
 import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-// import Image from "../components/image"
+// import { Link } from "gatsby"
 import SEO from "../components/seo"
-import { Button, Container, Alert } from 'react-bootstrap'
+import Layout from "../components/layout"
+import JumboComponent from "../components/jumbocomponent"
+import { Button, Container } from 'react-bootstrap'
 // import 'bootstrap/dist/css/bootstrap.min.css'
+// import Image from "../components/image"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+
+      <JumboComponent />
+
     <Container>
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <Alert variant="primary">This is a button</Alert>
-      <Button>Click Me</Button>
-      <div 
-        // style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}
-      >
-        {/* <Image /> */}
-      </div>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      <hr />
+
+      <h2>Check out some examples</h2>
+      <p>See all the snippets that I've created overtime in a gallery format.</p>
+      <Button variant="primary">Clickity Clack</Button>
+      <Button variant="danger">Don't Come Back</Button> <br />
     </Container>
   </Layout>
 )
 
 export default IndexPage
+// {[
+// 'primary',
+// 'secondary',
+// 'success',
+// 'danger',
+// 'warning',
+// 'info',
+// 'light',
+// 'dark',
+// ].map((variant, idx) => (
+// <Alert key={idx} variant={variant}>
+//   This is a {variant} alert—check it out!
+// </Alert>
+// ))}

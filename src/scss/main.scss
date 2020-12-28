@@ -1,3 +1,17 @@
 // combine all scss files
+
+//jumbo.module.scss
+#jumbo {
+  background-image: url(../images/trees.jpg);
+  color: white;
+}
+
+//footer.module.scss
+#footer {
+  p {
+    color: white;
+  }
+}
+
 @import "themed_bootstrap";
-@import "custom";
+// @import "../components/footer/footer.module";
